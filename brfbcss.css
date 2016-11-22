@@ -1,0 +1,252 @@
+.buttonstyleRED 
+{ 
+background: red; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #ffffff;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstyleRED:hover {background: white;background-position: 0px -501px;color: #000000; }
+.buttonstyleORANGE
+{ 
+background: orange; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #FFFFFF;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstyleORANGE:hover {background: white;background-position: 0px -501px;color: #000000; }
+.buttonstyleYELLOW 
+{ 
+background: yellow; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #000000;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstyleYELLOW:hover {background: white;background-position: 0px -501px;color: #000000; }
+.buttonstyleBLACK 
+{ 
+background: black; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #FFFFFF;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstyleBLACK:hover {background: white;background-position: 0px -501px;color: #000000; }
+.buttonstyleTEAL
+{ 
+background: teal; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #FFFFFF;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstyleTEAL:hover {background: white;background-position: 0px -501px;color: #000000; }
+.buttonstyleBLUE
+{ 
+background: blue; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #FFFFFF;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstyleBLUE:hover {background: white;background-position: 0px -501px;color: #000000; }
+.buttonstyleDARKBLUE
+{ 
+background: darkblue; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #FFFFFF;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstyleDARKBLUE:hover {background: white;background-position: 0px -501px;color: #000000; }
+.buttonstylePURPLE
+{ 
+background: purple; 
+background-position: 0px -401px; 
+border: solid 1px #000000; 
+border-radius: 15px 50px;
+color: #FFFFFF;
+height: 30px;
+width: 100px;
+margin-top: -1px;
+padding-bottom: 2px;
+text-decoration: none;
+}
+.buttonstylePURPLE:hover {background: white;background-position: 0px -501px;color: #000000; }
+body {
+background-image: url(images/Music-notes2a.jpg);
+background-position: right top;
+background-attachment: fixed;
+font-family: Verdana, Trebuchet, sans-serif;
+}
+
+#displaybox {
+	z-index: 10000;
+	background-color:rgba(255, 255, 255, 0.75);
+	position:fixed; top:0px; left:0px; width:100%; height:100%; color:#000000; text-align:center; vertical-align:middle;
+}
+
+td {
+	color: #000000;
+}
+
+h1, h2, h3, h4, h5 {
+
+    color: #000000;
+    margin: 0px;
+}
+
+a {
+color: darkblue;
+text-decoration: none;
+}
+
+div.black {
+  display: none;
+}
+
+div.white {
+  display: block;
+}
+
+a:hover {
+color: #6C392D;
+text-decoration: none;
+}
+
+a.b1
+{
+color: #fffea0;
+text-decoration: none;
+padding: 15px;
+margin: 0px;
+
+}
+
+.p1
+{
+padding: 0 0 0 20px;
+}
+
+
+.blye-text-underline {
+color: #47beed;
+text-decoration: underline;
+}
+
+.blye-text-regular {
+color: #47beed;
+text-decoration: none;
+}
+
+.yellow-text-regular {
+color: #ece92c;
+text-decoration: none;
+}
+
+.yellow-text-underline {
+color: #ece92c;
+text-decoration: underline;
+}
+
+.orange-text-regular {
+color: #e88520;
+text-decoration: none;
+}
+
+.orange-text-underline {
+color: #e88520;
+text-decoration: underline;
+}
+.brown-text-regular {
+color: #de4e06;
+text-decoration: none;
+}
+
+.brown-text-underline {
+color: #de4e06;
+text-decoration: underline;
+}
+
+.red-text-regular {
+color: #e21b00;
+text-decoration: none;
+}
+
+.red-text-underline {
+color: #e21b00;
+text-decoration: underline;
+}
+
+.black-text-regular {
+color: #000000;
+text-decoration: none;
+}
+
+.black-text-underline {
+color: #000000;
+text-decoration: underline;
+}
+
+.gray-text-underline{
+color: #7c7c7c;
+text-decoration: underline;
+}
+
+.gray-text-regular{
+color: #7c7c7c;
+text-decoration: none;
+}
+
+.green-text{
+color: #a5b66e;
+text-decoration: none;
+}
+
+.green-text-underline{
+color: #a5b66e;
+text-decoration: underline;
+}
+
+.style1 {
+	border-width: 0px;
+}
+</style>
+
